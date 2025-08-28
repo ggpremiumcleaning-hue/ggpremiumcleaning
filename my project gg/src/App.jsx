@@ -36,7 +36,7 @@ function LangSwitcher({ lang, setLang }) {
       {["en", "it", "sq"].map(code => (
         <button
           key={code}
-          className={`px-2 py-1 text-sm rounded ${lang === code ? "bg-[#d9c5a6]" : "bg-gray-200"}`}
+          className={'px-2 py-1 text-sm rounded ${lang === code ? "bg-[#d9c5a6]" : "bg-gray-200"}'}
           onClick={() => setLang(code)}
         >
           {code.toUpperCase()}
