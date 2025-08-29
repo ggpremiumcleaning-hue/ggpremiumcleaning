@@ -1,7 +1,7 @@
 {
-  "name": "gg.premiumcleaning",
-  "private": true,
+  "name": "ggpremiumcleaning",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
