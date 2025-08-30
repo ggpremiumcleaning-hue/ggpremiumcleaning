@@ -1,7 +1,7 @@
 
 import React, { useMemo, useState } from "react";
 import LogoFile from "./assets/logo.png";
-import { locales } from "./locales/translations";
+import { locales } from "./translations";
 
 export default function GGWebsite() {
   const [lang, setLang] = useState("en");
