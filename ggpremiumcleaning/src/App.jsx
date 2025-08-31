@@ -10,41 +10,11 @@ const translations = {
       "We provide professional cleaning services with attention to detail, reliability, and premium quality.",
     servicesTitle: "Our Services",
     services: [
-      {
-        icon: "🏠",
-        name: "Home Cleaning",
-        price: "From €50",
-        description:
-          "Our professional home cleaning service ensures every room in your house shines. We take care of dusting, vacuuming, mopping, sanitizing bathrooms and kitchens, and leaving your home fresh and spotless.",
-      },
-      {
-        icon: "💼",
-        name: "Office Cleaning",
-        price: "From €80",
-        description:
-          "Keep your workplace professional and hygienic. We provide daily, weekly, or monthly office cleaning, including desks, common areas, meeting rooms, and restrooms to maintain a healthy environment.",
-      },
-      {
-        icon: "🪟",
-        name: "Window Cleaning",
-        price: "From €40",
-        description:
-          "Crystal clear windows improve the look of any property. Our eco-friendly cleaning methods leave streak-free, shining windows inside and out.",
-      },
-      {
-        icon: "🧹",
-        name: "Deep Cleaning",
-        price: "From €100",
-        description:
-          "A complete deep cleaning service that reaches every corner. Ideal for spring cleaning or preparing your property for special occasions.",
-      },
-      {
-        icon: "🚗",
-        name: "Car Interior Cleaning",
-        price: "From €60",
-        description:
-          "We restore the freshness of your car’s interior. Vacuuming, upholstery cleaning, dashboard polishing, and odor removal are all included.",
-      },
+      { icon: "🏠", name: "Home Cleaning", price: "From €50", description: "Our professional home cleaning service ensures every room in your house shines. We take care of dusting, vacuuming, mopping, sanitizing bathrooms and kitchens, and leaving your home fresh and spotless." },
+      { icon: "💼", name: "Office Cleaning", price: "From €80", description: "Keep your workplace professional and hygienic. We provide daily, weekly, or monthly office cleaning, including desks, common areas, meeting rooms, and restrooms to maintain a healthy environment." },
+      { icon: "🪟", name: "Window Cleaning", price: "From €40", description: "Crystal clear windows improve the look of any property. Our eco-friendly cleaning methods leave streak-free, shining windows inside and out." },
+      { icon: "🧹", name: "Deep Cleaning", price: "From €100", description: "A complete deep cleaning service that reaches every corner. Ideal for spring cleaning or preparing your property for special occasions." },
+      { icon: "🚗", name: "Car Interior Cleaning", price: "From €60", description: "We restore the freshness of your car’s interior. Vacuuming, upholstery cleaning, dashboard polishing, and odor removal are all included." },
     ],
     contact: "Contact Us",
   },
@@ -55,41 +25,11 @@ const translations = {
       "Offriamo servizi di pulizia professionali con attenzione ai dettagli, affidabilità e qualità premium.",
     servicesTitle: "I nostri servizi",
     services: [
-      {
-        icon: "🏠",
-        name: "Pulizia Casa",
-        price: "Da €50",
-        description:
-          "Il nostro servizio di pulizia domestica garantisce che ogni stanza della tua casa brilli. Spolveriamo, aspiriamo, laviamo i pavimenti, sanifichiamo bagni e cucine, lasciando la tua casa fresca e impeccabile.",
-      },
-      {
-        icon: "💼",
-        name: "Pulizia Uffici",
-        price: "Da €80",
-        description:
-          "Mantieni il tuo ufficio professionale e igienico. Offriamo pulizia giornaliera, settimanale o mensile di scrivanie, aree comuni, sale riunioni e bagni.",
-      },
-      {
-        icon: "🪟",
-        name: "Pulizia Vetri",
-        price: "Da €40",
-        description:
-          "Vetri brillanti migliorano l’aspetto di qualsiasi proprietà. I nostri metodi ecologici lasciano vetri senza aloni, sia interni che esterni.",
-      },
-      {
-        icon: "🧹",
-        name: "Pulizia Profonda",
-        price: "Da €100",
-        description:
-          "Un servizio di pulizia profonda che raggiunge ogni angolo. Ideale per le pulizie di primavera o per preparare la tua proprietà a occasioni speciali.",
-      },
-      {
-        icon: "🚗",
-        name: "Pulizia Interni Auto",
-        price: "Da €60",
-        description:
-          "Ripristiniamo la freschezza degli interni della tua auto. Aspirazione, pulizia dei sedili, lucidatura cruscotto e rimozione degli odori inclusi.",
-      },
+      { icon: "🏠", name: "Pulizia Casa", price: "Da €50", description: "Il nostro servizio di pulizia domestica garantisce che ogni stanza della tua casa brilli. Spolveriamo, aspiriamo, laviamo i pavimenti, sanifichiamo bagni e cucine, lasciando la tua casa fresca e impeccabile." },
+      { icon: "💼", name: "Pulizia Uffici", price: "Da €80", description: "Mantieni il tuo ufficio professionale e igienico. Offriamo pulizia giornaliera, settimanale o mensile di scrivanie, aree comuni, sale riunioni e bagni." },
+      { icon: "🪟", name: "Pulizia Vetri", price: "Da €40", description: "Vetri brillanti migliorano l’aspetto di qualsiasi proprietà. I nostri metodi ecologici lasciano vetri senza aloni, sia interni che esterni." },
+      { icon: "🧹", name: "Pulizia Profonda", price: "Da €100", description: "Un servizio di pulizia profonda che raggiunge ogni angolo. Ideale per le pulizie di primavera o per preparare la tua proprietà a occasioni speciali." },
+      { icon: "🚗", name: "Pulizia Interni Auto", price: "Da €60", description: "Ripristiniamo la freschezza degli interni della tua auto. Aspirazione, pulizia dei sedili, lucidatura cruscotto e rimozione degli odori inclusi." },
     ],
     contact: "Contattaci",
   },
@@ -100,41 +40,11 @@ const translations = {
       "Ne ofrojmë shërbime pastrimi profesionale me kujdes për detajet, besueshmëri dhe cilësi premium.",
     servicesTitle: "Shërbimet tona",
     services: [
-      {
-        icon: "🏠",
-        name: "Pastrimi i Shtëpisë",
-        price: "Nga €50",
-        description:
-          "Shërbimi ynë profesional i pastrimit të shtëpisë siguron që çdo dhomë të shkëlqejë. Pluhurosje, fshesë me korent, larje dyshemeje, sanitizim i kuzhinës dhe banjës.",
-      },
-      {
-        icon: "💼",
-        name: "Pastrimi i Zyrave",
-        price: "Nga €80",
-        description:
-          "Mbani hapësirën tuaj të punës profesionale dhe higjienike. Ofrojmë pastrim ditor, javor ose mujor për zyra, salla mbledhjesh dhe ambiente të përbashkëta.",
-      },
-      {
-        icon: "🪟",
-        name: "Pastrimi i Dritareve",
-        price: "Nga €40",
-        description:
-          "Dritaret e pastra përmirësojnë pamjen e çdo prone. Metodat tona ekologjike lënë dritaret pa njolla, si brenda ashtu edhe jashtë.",
-      },
-      {
-        icon: "🧹",
-        name: "Pastrimi i Thellë",
-        price: "Nga €100",
-        description:
-          "Një pastrim i plotë i thellë që arrin çdo cep. Ideal për pastrime pranverore ose përgatitje për raste speciale.",
-      },
-      {
-        icon: "🚗",
-        name: "Pastrimi i Brendshëm i Makinës",
-        price: "Nga €60",
-        description:
-          "Rikthejmë freskinë e brendshme të makinës suaj. Përfshin pastrim me fshesë, pastrim të tapicerisë, lustër të pultit dhe heqje të erërave.",
-      },
+      { icon: "🏠", name: "Pastrimi i Shtëpisë", price: "Nga €50", description: "Shërbimi ynë profesional i pastrimit të shtëpisë siguron që çdo dhomë të shkëlqejë. Pluhurosje, fshesë me korent, larje dyshemeje, sanitizim i kuzhinës dhe banjës." },
+      { icon: "💼", name: "Pastrimi i Zyrave", price: "Nga €80", description: "Mbani hapësirën tuaj të punës profesionale dhe higjienike. Ofrojmë pastrim ditor, javor ose mujor për zyra, salla mbledhjesh dhe ambiente të përbashkëta." },
+      { icon: "🪟", name: "Pastrimi i Dritareve", price: "Nga €40", description: "Dritaret e pastra përmirësojnë pamjen e çdo prone. Metodat tona ekologjike lënë dritaret pa njolla, si brenda ashtu edhe jashtë." },
+      { icon: "🧹", name: "Pastrimi i Thellë", price: "Nga €100", description: "Një pastrim i plotë i thellë që arrin çdo cep. Ideal për pastrime pranverore ose përgatitje për raste speciale." },
+      { icon: "🚗", name: "Pastrimi i Brendshëm i Makinës", price: "Nga €60", description: "Rikthejmë freskinë e brendshme të makinës suaj. Përfshin pastrim me fshesë, pastrim të tapicerisë, lustër të pultit dhe heqje të erërave." },
     ],
     contact: "Na kontaktoni",
   },
@@ -174,18 +84,26 @@ export default function App() {
         </div>
       </header>
 
-      {/* Hero */}
-      <section className="text-center py-16 bg-gradient-to-r from-blue-100 to-blue-50">
-        <img src="/logo.png" alt="Logo" className="mx-auto h-32 mb-6 animate-bounce" />
-        <h1 className="text-4xl font-bold mb-4">{t.hero}</h1>
-        <p className="max-w-2xl mx-auto text-lg text-gray-600">{t.about}</p>
+      {/* Hero Section */}
+      <section
+        className="relative text-center py-24 bg-cover bg-center"
+        style={{ backgroundImage: "url('/cleaning-bg.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div className="relative z-10">
+          <img
+            src="/logo.png"
+            alt="GG Premium Cleaning"
+            className="mx-auto h-32 mb-6 drop-shadow-lg"
+          />
+          <h1 className="text-4xl font-bold text-white mb-4">{t.hero}</h1>
+          <p className="max-w-2xl mx-auto text-lg text-gray-200">{t.about}</p>
+        </div>
       </section>
 
       {/* Services */}
       <section className="py-16 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-10">
-          {t.servicesTitle}
-        </h2>
+        <h2 className="text-3xl font-bold text-center mb-10">{t.servicesTitle}</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {t.services.map((s, i) => (
             <motion.button
@@ -221,9 +139,7 @@ export default function App() {
             <div className="text-4xl mb-4">{selectedService.icon}</div>
             <h3 className="text-2xl font-bold mb-2">{selectedService.name}</h3>
             <p className="text-blue-600 font-bold mb-4">{selectedService.price}</p>
-            <p className="text-gray-700 leading-relaxed">
-              {selectedService.description}
-            </p>
+            <p className="text-gray-700 leading-relaxed">{selectedService.description}</p>
           </motion.div>
         </div>
       )}
