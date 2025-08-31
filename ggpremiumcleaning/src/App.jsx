@@ -194,7 +194,7 @@ export default function App() {
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {t.services.map((s, i) => (
-            <motion.button
+            <button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               key={i}
@@ -204,7 +204,7 @@ export default function App() {
               <div className="text-3xl mb-2">{s.icon}</div>
               <h3 className="text-xl font-semibold mb-1">{s.name}</h3>
               <p className="text-blue-600 font-bold">{s.price}</p>
-            </motion.button>
+            </button>
           ))}
         </div>
       </section>
@@ -212,7 +212,7 @@ export default function App() {
       {/* Modal for service details */}
       {selectedService && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <motion.div
+          <div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
@@ -234,7 +234,7 @@ export default function App() {
             <p className="text-gray-700 leading-relaxed">
               {selectedService.description}
             </p>
-          </motion.div>
+          </div>
         </div>
       )}
 
