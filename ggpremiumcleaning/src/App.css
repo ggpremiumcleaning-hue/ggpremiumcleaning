@@ -1,4 +1,4 @@
-/* General styles */
+/* Общие стили */
 body {
   margin: 0;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -6,7 +6,7 @@ body {
   color: #2e2a26;
 }
 
-/* Header */
+/* Хедер */
 .header {
   display: flex;
   justify-content: space-between;
