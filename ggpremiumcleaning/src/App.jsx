@@ -1,176 +1,80 @@
-/* General styles */
-body {
-  margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background: #f5f0e6;
-  color: #2e2a26;
+mport React from "react";
+import "./App.css";
+import logo from "./assets/logo.png";
+
+function App() {
+  return (
+    <div className="app">
+      {/* Header */}
+      <header className="header">
+        <img src={logo} alt="Logo" className="logo" />
+        <nav>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <button className="btn">Book Now</button>
+        </nav>
+      </header>
+
+      {/* Hero Section */}
+      <section className="hero">
+        <h1>Premium Cleaning Services</h1>
+        <p>Creating spotless comfort for your home and office</p>
+        <button className="btn">Get a Quote</button>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="about">
+        <h2>About Us</h2>
+        <p>
+          We are a professional cleaning company that values your time and
+          comfort. Our mission is to deliver high-quality, eco-friendly, and
+          affordable cleaning services for both residential and commercial
+          spaces.
+        </p>
+      </section>
+
+      {/* Services Section */}
+      <section id="services" className="services">
+        <h2>Our Services</h2>
+        <div className="cards">
+          <div className="card">🏠 Home Cleaning</div>
+          <div className="card">🏢 Office Cleaning</div>
+          <div className="card">🪟 Window Cleaning</div>
+          <div className="card">🛋 Deep Cleaning</div>
+          <div className="card">🚗 Car Interior Cleaning</div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Call us: +123 456 789</p>
+        <form className="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" className="btn">Send</button>
+        </form>
+        <div className="map">
+          <iframe
+            title="Our Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345087077!2d144.9537353153175!3d-37.81627997975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f2fddf1f%3A0x5045675218ceed30!2sCleaning%20Service!5e0!3m2!1sen!2sus!4v1610000000000"
+            width="100%"
+            height="250"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer>
+        <p>© 2025 Premium Cleaning — All rights reserved.</p>
+      </footer>
+    </div>
+  );
 }
 
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: #4b3f35;
-  color: #f5f0e6;
-}
-
-.header .logo {
-  height: 50px;
-}
-
-.header nav {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.header nav a {
-  color: #f5f0e6;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-.header nav a:hover {
-  color: #d4a373;
-}
-
-.btn {
-  background: #d4a373;
-  border: none;
-  padding: 10px 20px;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 6px;
-  font-weight: 600;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #a68b6f;
-}
-
-/* Hero */
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: linear-gradient(
-      rgba(75, 63, 53, 0.6),
-      rgba(75, 63, 53, 0.6)
-    ),
-    url("https://picsum.photos/1600/600?blur=2") no-repeat center;
-  background-size: cover;
-  color: #f5f0e6;
-}
-
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-/* About */
-.about {
-  padding: 60px 20px;
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* Services */
-.services {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.services h2 {
-  font-size: 32px;
-  margin-bottom: 30px;
-  color: #4b3f35;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-}
-
-.card {
-  background: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  width: 250px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 18px rgba(0,0,0,0.15);
-}
-
-/* Contact */
-.contact {
-  padding: 60px 20px;
-  text-align: center;
-  background: #f0ebe2;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  max-width: 400px;
-  margin: 20px auto;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 12px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
-
-.contact-form textarea {
-  resize: none;
-  min-height: 100px;
-}
-
-/* Footer */
-footer {
-  padding: 20px;
-  background: #4b3f35;
-  text-align: center;
-  color: #f5f0e6;
-  font-size: 14px;
-}
-
-/* 📱 Адаптивность */
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 32px;
-  }
-
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 90%;
-  }
-}
+export default App;
