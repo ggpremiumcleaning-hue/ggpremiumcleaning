@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Globe, X } from "lucide-react";
 import { motion } from "framer-motion";
 
 const translations = {
