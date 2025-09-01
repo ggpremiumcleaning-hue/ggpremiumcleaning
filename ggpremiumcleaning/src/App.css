@@ -54,24 +54,22 @@ body {
 
 /* Hero */
 .hero {
-  background: #4b3f35; /* однотонный фон */
   text-align: center;
-  padding: 100px 20px;
-  color: #f5f0e6;
-}
-
-.hero img {
-  max-width: 220px; /* регулирует размер лого */
-  margin-bottom: 20px;
+  padding: 140px 20px 100px; /* ↑ немного больше отступ сверху */
+  background: url("./assets/logo.png") no-repeat center;
+  background-size: 300px; /* размер лого на фоне */
+  background-color: #f5f0e6; /* бежевый фон под лого */
+  color: #4b3f35; /* тёмно-коричневый текст */
 }
 
 .hero h1 {
+  margin-top: 200px; /* чтобы текст был ниже лого */
   font-size: 48px;
-  margin-bottom: 10px;
 }
 
 .hero p {
   font-size: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
