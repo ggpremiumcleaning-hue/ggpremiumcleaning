@@ -54,15 +54,15 @@ body {
 
 /* Hero */
 .hero {
+  background: #4b3f35; /* однотонный фон */
   text-align: center;
   padding: 100px 20px;
-  background: linear-gradient(
-      rgba(75, 63, 53, 0.6),
-      rgba(75, 63, 53, 0.6)
-    ),
-    url("https://picsum.photos/1600/600?blur=2") no-repeat center;
-  background-size: cover;
   color: #f5f0e6;
+}
+
+.hero img {
+  max-width: 220px; /* регулирует размер лого */
+  margin-bottom: 20px;
 }
 
 .hero h1 {
