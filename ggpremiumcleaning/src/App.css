@@ -57,7 +57,7 @@ body {
   text-align: center;
   padding: 180px 20px 100px; /* сверху больше отступ, чтобы текст ушёл ниже */
   background: #f5f0e6 url("./assets/logo.png") no-repeat center top 60px;
-  background-size: 400px; /* размер логотипа */
+  background-size: 700px; /* размер логотипа */
   color: #4b3f35;
 }
 
