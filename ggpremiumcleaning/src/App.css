@@ -55,11 +55,10 @@ body {
 /* Hero */
 .hero {
   text-align: center;
-  padding: 140px 20px 100px; /* ↑ немного больше отступ сверху */
-  background: url("./assets/logo.png") no-repeat center;
-  background-size: 300px; /* размер лого на фоне */
-  background-color: #f5f0e6; /* бежевый фон под лого */
-  color: #4b3f35; /* тёмно-коричневый текст */
+  padding: 180px 20px 100px; /* сверху больше отступ, чтобы текст ушёл ниже */
+  background: #f5f0e6 url("./assets/logo.png") no-repeat center top 60px;
+  background-size: 280px; /* размер логотипа */
+  color: #4b3f35;
 }
 
 .hero h1 {
