@@ -154,16 +154,30 @@ function App() {
       )}
 
       {/* Contact */}
-      <section id="contact" className="contact">
-        <h2>{t.contact.title}</h2>
-        <p>{t.contact.phone}</p>
-        <form className="contact-form">
-          <input type="text" placeholder={t.contact.form.name} required />
-          <input type="email" placeholder={t.contact.form.email} required />
-          <textarea placeholder={t.contact.form.message} required></textarea>
-          <button type="submit" className="btn">{t.contact.form.send}</button>
-        </form>
-      </section>
+   <section id="contact" className="contact">
+  <h2>{t.contact.title}</h2>
+  <p>{t.contact.phone}</p>
+  <form className="contact-form">
+    <input type="text" placeholder={t.contact.form.name} required />
+    <input type="email" placeholder={t.contact.form.email} required />
+    <textarea placeholder={t.contact.form.message} required></textarea>
+    <button type="submit" className="btn">{t.contact.form.send}</button>
+  </form>
+
+  {/* Карта */}
+  <div className="map">
+    <iframe
+      title="Our Location"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.7078730917966!2d19.8189!3d41.3275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350310b2ef7f2f1%3A0x3a861e7b49f84e87!2sTirana%2C%20Albania!5e0!3m2!1sen!2s!4v1700000000000"
+      width="100%"
+      height="250"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+    ></iframe>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer>
