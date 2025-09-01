@@ -103,7 +103,6 @@ function App() {
     <div className="app">
       {/* Header */}
       <header className="header">
-        <img src={logo} alt="Logo" className="logo" />
         <nav>
           <a href="#about">{t.nav.about}</a>
           <a href="#services">{t.nav.services}</a>
