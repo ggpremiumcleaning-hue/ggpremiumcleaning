@@ -119,7 +119,6 @@ function App() {
 
       {/* Hero */}
       <section className="hero">
-        <img src={logo} alt="GG Premium Cleaning Logo" />
         <h1>{t.hero.title}</h1>
         <p>{t.hero.subtitle}</p>
         <button className="btn">{t.hero.quote}</button>
