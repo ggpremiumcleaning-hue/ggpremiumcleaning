@@ -62,7 +62,7 @@ body {
 }
 
 .hero h1 {
-  margin-top: 40px; /* чтобы текст был ниже лого */
+  margin-top: 10px; /* чтобы текст был ниже лого */
   font-size: 48px;
 }
 
