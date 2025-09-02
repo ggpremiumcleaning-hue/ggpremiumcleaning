@@ -21,10 +21,10 @@ Why choose us?
     services: {
       title: "Our Services",
       list: [
-        { emoji: "🏠", name: "Home Cleaning", details: "Thorough home cleaning including kitchens, bathrooms, bedrooms and living spaces. Prices start at 1500 ALL for small apartments." },
-        { emoji: "🏢", name: "Office Cleaning", details: "Daily or weekly professional office cleaning with eco products. Prices start at 3000 ALL." },
-        { emoji: "🛋", name: "Deep Cleaning", details: "Detailed cleaning of every surface, perfect for moving in/out. Prices from 5000 ALL depending on size." },
-        { emoji: "🛍", name: "Store Cleaning", details: "Specialized cleaning for shops and commercial spaces. Starting from 4000 ALL per session." }
+        { emoji: "🏠", name: "Home Cleaning", details: "Welcome to a spotless home! Our home cleaning service is perfect for families, professionals, and anyone who wants to come back to a fresh and organized space. * Dusting, vacuuming, and mopping every corner * Kitchen and bathroom sanitization * Changing bed linens and making your home cozy * Special care for delicate surfaces and furniture. Relax and enjoy your free time while we take care of your home." },
+        { emoji: "🏢", name: "Office Cleaning", details: "A clean office = a productive team! Our office cleaning service helps you maintain a professional environment where your staff and clients feel comfortable. * Daily or weekly cleaning tailored to your schedule * Desks, meeting rooms, and common spaces cleaned thoroughly * Waste removal and sanitizing high-touch areas * Flexible after-hours cleaning so your workday isn’t disturbed ✨ Boost morale and make your office shine." },
+        { emoji: "🛋", name: "Deep Cleaning", details: "Sometimes a space needs more than just a quick refresh. Our deep cleaning is the solution for those hard-to-reach spots and detailed work. * Thorough scrubbing of kitchens, ovens, fridges, and bathrooms * Intensive dust removal from hidden areas * Window and glass cleaning for that perfect shine * Eco-friendly products available for safe and fresh results ✨ Perfect before moving in/out, after renovation, or when you want a complete reset." },
+        { emoji: "🛍", name: "Store Cleaning", details: "First impressions matter! Our store cleaning keeps your business attractive and welcoming for every customer. * Floor care to keep your space spotless * Display shelves and glass surfaces polished * Sanitized fitting rooms, restrooms, and counters * Flexible schedules to suit your opening hours ✨ Let your shop shine as much as the products you sell." }
       ]
     },
     contact: {
