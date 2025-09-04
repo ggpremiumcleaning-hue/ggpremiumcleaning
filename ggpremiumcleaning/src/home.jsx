@@ -110,7 +110,7 @@ function home() {
           <a href="#about">{t.nav.about}</a>
           <a href="#services">{t.nav.services}</a>
           <a href="#contact">{t.nav.contact}</a>
-          <button className="btn">{t.nav.book}</button>
+          <Link to="/book" className="btn">{t.nav.book}</Link>
           {/* Language Switcher */}
           <div className="lang-switcher">
             <button onClick={() => setLang("en")}>🇬🇧</button>
@@ -124,7 +124,7 @@ function home() {
       <section className="hero">
         <h1>{t.hero.title}</h1>
         <p>{t.hero.subtitle}</p>
-        <button className="btn">{t.hero.quote}</button>
+         <Link to="/quote" className="btn">{t.hero.quote}</Link>
       </section>
 
       {/* About */}
