@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import logo from "./assets/logo.png";
+import { Link } from "react-router-dom";
 
 // Переводы
 const translations = {
@@ -110,7 +111,7 @@ function home() {
           <a href="#about">{t.nav.about}</a>
           <a href="#services">{t.nav.services}</a>
           <a href="#contact">{t.nav.contact}</a>
-          <Link to="/book" className="btn">{t.nav.book}</Link>
+          <Link to="/book" className="btn">Book Now</Link>
           {/* Language Switcher */}
           <div className="lang-switcher">
             <button onClick={() => setLang("en")}>🇬🇧</button>
@@ -124,7 +125,7 @@ function home() {
       <section className="hero">
         <h1>{t.hero.title}</h1>
         <p>{t.hero.subtitle}</p>
-         <Link to="/quote" className="btn">{t.hero.quote}</Link>
+         <Link to="/quote" className="btn">Get a Quote</Link>
       </section>
 
       {/* About */}
